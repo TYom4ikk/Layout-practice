@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus{
+    border-color: #007BFF;
+    outline: none;
+}
+
+.error-message{
+    color: red;
+    font-size: 12px;
+    height: 12px;
+}
+
+input.invalid{
+    border-color: red;
+    background-color: #ffe6e6;
+}
