@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.effect-1{
+    filter: brightness(2);
+    filter: contrast(700%);
+}
+
+.effect-2{
+    filter: invert(1);
+}
+
+.effect-3{
+    filter: sepia(1);
+}
+
+.effect-4{
+    filter: invert();
+}
+
+.effect-5{
+    filter: grayscale(1);
+}
+
+.effect-6{
+    filter: saturate(10);
+}
